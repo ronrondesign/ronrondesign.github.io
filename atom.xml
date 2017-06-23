@@ -17,8 +17,8 @@
   
   <entry>
     <title>hello-world</title>
-    <link href="http://yoursite.com/2017/06/23/hello-world/"/>
-    <id>http://yoursite.com/2017/06/23/hello-world/</id>
+    <link href="http://yoursite.com/2017/06/23/%E4%B8%96%E7%95%8C%E5%BE%88%E7%BE%8E%E5%A5%BD/"/>
+    <id>http://yoursite.com/2017/06/23/世界很美好/</id>
     <published>2017-06-23T08:50:10.000Z</published>
     <updated>2017-06-23T08:51:59.000Z</updated>
     
@@ -45,26 +45,20 @@
   
   <entry>
     <title>hello-world</title>
-    <link href="http://yoursite.com/2017/06/23/%E4%B8%96%E7%95%8C%E5%BE%88%E7%BE%8E%E5%A5%BD/"/>
-    <id>http://yoursite.com/2017/06/23/世界很美好/</id>
+    <link href="http://yoursite.com/2017/06/23/hello-world/"/>
+    <id>http://yoursite.com/2017/06/23/hello-world/</id>
     <published>2017-06-23T08:50:10.000Z</published>
-    <updated>2017-06-23T08:51:59.000Z</updated>
+    <updated>2017-06-23T09:40:04.000Z</updated>
     
-    <content type="html"><![CDATA[<!-- 首页封面图 -->
-<p>thumb: <a href="http://ww3.sinaimg.cn/large/7853084cgw1f7vttm4rr9j20dm0amt9i.jpg" target="_blank" rel="external">http://ww3.sinaimg.cn/large/7853084cgw1f7vttm4rr9j20dm0amt9i.jpg</a><br><!-- 文章大图 --><br>cover: <a href="http://ww3.sinaimg.cn/large/7853084cgw1f7vueqesr5j21jk0uh446.jpg" target="_blank" rel="external">http://ww3.sinaimg.cn/large/7853084cgw1f7vueqesr5j21jk0uh446.jpg</a><br><!-- Excerpt in index --><br>description: hello world</p>
-<ul>
-<li><a id="more"></a>
-<!-- The rest of contents -->
-</li>
-</ul>
+    <content type="html"><![CDATA[<p>先说说我是怎么提笔的。</p>
+<p>之所以先讲这个，就是因为我看好多朋友总是梦想着，计划着，一直在准备着要动笔写作，终于有一天看见写了一两篇三五篇，突然中断，再也不见下文。更多的是一直想着写，却一直没见写。</p>
+<p>我理解，我尤其理解一直想着写而一直没动笔的朋友。面对一个自己陌生的领域，我们都害怕失败，但我们更应该明白，不行动，却是最悲惨的结局。</p>
+<p>因为工作的调动，提档案的时候我有幸见到自己当年参加中招考试的试卷，当年在中招考场写的作文，题目是《压岁钱》。那是1993年，农村长大的孩子，压根儿就没听过压岁钱这个词。现在回想起来，每年正月初二去给姥姥姥爷拜年，吃完饭要回家时，舅舅会给我们兄妹每人五毛钱。我们都不叫压岁钱，我们都没把那钱起过特殊的名称，只是把长辈给晚辈钱的这个习俗叫作穿钱。是不是这个穿字我都无从知道，只是读音上这样说。不知道当初考场上的我看到这个题目会是怎样的一种感想，会不会像今年网上说的，山区的孩子看到移动支付的高考作文题那样，脸上全是茫然，心中乱马奔腾？</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;!-- 首页封面图 --&gt;
-&lt;p&gt;thumb: &lt;a href=&quot;http://ww3.sinaimg.cn/large/7853084cgw1f7vttm4rr9j20dm0amt9i.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://ww3.sinaimg.cn/large/7853084cgw1f7vttm4rr9j20dm0amt9i.jpg&lt;/a&gt;&lt;br&gt;&lt;!-- 文章大图 --&gt;&lt;br&gt;cover: &lt;a href=&quot;http://ww3.sinaimg.cn/large/7853084cgw1f7vueqesr5j21jk0uh446.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://ww3.sinaimg.cn/large/7853084cgw1f7vueqesr5j21jk0uh446.jpg&lt;/a&gt;&lt;br&gt;&lt;!-- Excerpt in index --&gt;&lt;br&gt;description: hello world&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
+      hello world
     
     </summary>
     
