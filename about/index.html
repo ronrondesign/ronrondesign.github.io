@@ -1,79 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-  <!-- Head tag -->
-  <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Title -->
-  
-  <title>RON</title>
+extends partial/layout
 
-  <!--Favicon-->
-  <link rel="icon" href="favicon/favicon.ico">
+block site_title
+    != page.title + " · " + config.title
 
-  <!--Description-->
-  
-      <meta name="description" content="也许你也是，曾是吹拂我的风">
-  
+block description
+    - var desc = page.desc || page.title + ' - ' + config.author;
+    meta(name="description", content=desc)
 
-  <!--Author-->
-  
-      <meta name="author" content="Ron&#39;s">
-  
+block header
+    include partial/header
 
-  <!-- Pure CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans:300,800" rel="stylesheet">
-
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="/css/styles.css">
-
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
-
-  <!-- Google Analytics -->
-  
-
-</head>
-
-
-  <body>
-  	<div class="container-fluid navbar-container m-sm-5">
-      <!-- Header -->
-      <nav class="navbar navbar-toggleable-sm navbar-light px-1 py-3 my-3 mb-sm-5">
-  <a class="navbar-brand ml-2" href="/">RON</a>
-  <button class="navbar-toggler navbar-toggler-right py-2" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse text-center" id="navbarCollapse">
-    <ul class="navbar-nav ml-auto my-auto">
-      
-    </ul>
-    <hr class="hidden-md-up" />
-  </div>
-</nav>
-
-
-  		<div class="row">
-  			
-<div class="col-12 pt-lg-3 mb-4 px-4 portfolio-content">
-  <h1 id="关于RON"><a href="#关于RON" class="headerlink" title="关于RON"></a>关于RON</h1><p>从事用户体验设计及图形设计工作；目前生活在北京，就职于滴滴出行设计经理，拥有丰富的一线互联网公司从业经验。<br>设计之余会叨絮些文字，以及摄影，对设计的初衷就是发现身边的美好与不完美，然后去欣赏及改善他。<br>2013~now  滴滴出行 设计经理<br>2010~2013 百度 资深设计师<br>2008~2010 互联网 网页及界面设计<br>微信 ronron<br>邮件 rongdesign@qq.com<br>微博 www.weibo.com/rron<br>instagram www.instagram.com/abelron/</p>
-
-</div>
-
-
-  		</div>
-  	</div>
-
-    <!-- After footer scripts -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-
-  </body>
-</html>
+block container
+    include mixins/post
+    +post(page)
