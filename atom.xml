@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-06-27T03:25:25.000Z</updated>
+  <updated>2017-06-27T03:27:06.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>My Awesome Portfolio Piece</title>
+    <title>hello-world</title>
     <link href="http://yoursite.com/2017/06/23/hello-world/"/>
     <id>http://yoursite.com/2017/06/23/hello-world/</id>
     <published>2017-06-23T08:50:10.000Z</published>
-    <updated>2017-06-27T03:25:25.000Z</updated>
+    <updated>2017-06-27T03:27:06.000Z</updated>
     
     <content type="html"><![CDATA[<p>先说说我是怎么提笔的。</p>
 <p>之所以先讲这个，就是因为我看好多朋友总是梦想着，计划着，一直在准备着要动笔写作，终于有一天看见写了一两篇三五篇，突然中断，再也不见下文。更多的是一直想着写，却一直没见写。</p>
