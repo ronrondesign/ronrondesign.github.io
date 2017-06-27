@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title></title>
-  
+  <title>RONDESIGN</title>
+  <subtitle>Branding/Gui Design/Digital Design/Icon Design</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-06-23T09:58:13.000Z</updated>
+  <updated>2017-06-27T03:09:43.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2017/06/23/hello-world/"/>
     <id>http://yoursite.com/2017/06/23/hello-world/</id>
     <published>2017-06-23T08:50:10.000Z</published>
-    <updated>2017-06-23T09:58:13.000Z</updated>
+    <updated>2017-06-27T03:09:43.000Z</updated>
     
     <content type="html"><![CDATA[<p>先说说我是怎么提笔的。</p>
 <p>之所以先讲这个，就是因为我看好多朋友总是梦想着，计划着，一直在准备着要动笔写作，终于有一天看见写了一两篇三五篇，突然中断，再也不见下文。更多的是一直想着写，却一直没见写。</p>
